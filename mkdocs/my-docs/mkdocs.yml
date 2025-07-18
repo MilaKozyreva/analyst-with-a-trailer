@@ -3,8 +3,8 @@ repo_name: analyst-with-a-trailer
 repo_url: https://github.com/MilaKozyreva/analyst-with-a-trailer
 theme:
   name: material
-  logo: assets/chiko.png
-  favicon: assets/chiko.png
+  logo: assets/cool.png
+  favicon: assets/laughing.png
   language: ru
   palette:
     - scheme: default
@@ -22,6 +22,7 @@ theme:
     # - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
     # - navigation.indexes # главные страницы разделов не отображаются в меню
     - navigation.top # вкл. кнопку возврата наверх
+    # - toc.integrate  # Встроенное оглавление справа
 
 plugins:
   - search:
@@ -51,7 +52,19 @@ nav: # блок навигации сайта
       - index.md
   - Про требования:
       - documentation/index.md
+      - Памятки по форматам:
+          - documentation/notes-on-format/markdown.md
+  - Подходы к разработке и проектированию:
+      - documentation/DDD.md
+      - documentation/OOP.md
   - Интеграции систем:
       - integration/index.md
       - integration/rest_api.md
       - integration/kafka.md
+  - Паттерны:
+      - Програмные:
+          - patterns/bff.md
+          - patterns/grasp.md
+      - Организационные:
+          - patterns/models_dev.md
+
