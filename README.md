@@ -1,6 +1,6 @@
 # analyst-with-a-trailer
 
-Документацию собирается локально с помощью [MkDocs](https://squidfunk.github.io/mkdocs-material/)
+Документация собирается локально с помощью [MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 Проверить:  
 установлен python (старше v. 3.9.6):  
